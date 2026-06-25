@@ -33,8 +33,10 @@ export async function savePullRequest(payload:PullRequestWebhookPayload){
         update:{
             title: payload.pull_request.title,
             headSha: payload.pull_request.head.sha,
-           
+
             status: "pending",
         }
     })
+
+    return pullRequest;
 }
