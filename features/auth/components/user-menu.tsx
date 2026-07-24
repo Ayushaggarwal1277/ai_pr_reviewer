@@ -108,7 +108,7 @@ export function UserMenu({
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger className={cn(className)}>
+      <DropdownMenuTrigger asChild className={cn(className)}>
         {variant === "compact" ? (
           <Button
             variant="ghost"

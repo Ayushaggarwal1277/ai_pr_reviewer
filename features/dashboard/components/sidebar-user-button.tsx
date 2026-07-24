@@ -17,7 +17,7 @@ export function SidebarUserButton({ user, plan }: SidebarUserButtonProps) {
           user={user}
           plan={plan}
           variant="profile"
-          className="w-full [&_button]:h-12 [&_button]:w-full [&_button]:justify-start [&_button]:gap-2 [&_button]:px-2"
+          className="h-12 w-full justify-start gap-2 px-2"
         />
       </SidebarMenuItem>
     </SidebarMenu>
